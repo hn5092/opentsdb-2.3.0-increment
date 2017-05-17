@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/xym/work_space/opentsdb/opentsdb-2.3.0/src/mygnuplot.sh" todir="/xym/work_space/opentsdb/opentsdb-2.3.0/target/classes"/>
+  <chmod file="/xym/work_space/opentsdb/opentsdb-2.3.0/target/classes/mygnuplot.sh" perm="ugo+rx"/>
+  <copy file="/xym/work_space/opentsdb/opentsdb-2.3.0/src/mygnuplot.bat" todir="/xym/work_space/opentsdb/opentsdb-2.3.0/target/classes"/>
+  <chmod file="/xym/work_space/opentsdb/opentsdb-2.3.0/target/classes/mygnuplot.bat" perm="ugo+rx"/>
+</target>
+</project>
